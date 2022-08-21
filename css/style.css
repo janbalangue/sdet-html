@@ -12,7 +12,16 @@ body {
 main {
     flex: 1 0 auto;
 }
-@media only screen and (min-width: 601px) {
+img {
+    height: 100%;
+    width: 60%;
+}
+
+iframe {
+    height: 100%;
+    width: 50%;
+}
+@media only screen and (min-width: 1500px) and (max-width: 2000px) {
     img {
         height: 100%;
         width: 60%;
@@ -20,7 +29,7 @@ main {
     
     iframe {
         height: 100%;
-        width: 50%;
+        width: 60%;
     }
     
     #group {
@@ -32,7 +41,27 @@ main {
     }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 1000px) and (max-width: 1499px) {
+    img {
+        height: 100%;
+        width: 80%;
+    }
+    
+    iframe {
+        height: 100%;
+        width: 80%;
+    }
+    
+    #group {
+        width: 80%;
+    }
+    
+    #mom {
+        width: 62%;
+    }
+}
+
+@media only screen and (max-width: 999px) {
     img, iframe {
         width: 100%;
     }
