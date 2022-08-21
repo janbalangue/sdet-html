@@ -37,7 +37,7 @@ iframe {
     }
     
     #mom {
-        width: 10%;
+        width: 8%;
     }
 }
 @media only screen and (min-width: 2501px) and (max-width: 3000px) {
@@ -56,7 +56,7 @@ iframe {
     }
     
     #mom {
-        width: 12%;
+        width: 10%;
     }
 }
 @media only screen and (min-width: 2001px) and (max-width: 2500px) {
