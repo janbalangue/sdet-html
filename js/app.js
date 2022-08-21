@@ -1,10 +1,10 @@
 $("document").ready(function () {
     $(".button-collapse").sideNav();
     $('.carousel').carousel();
-    $('#prev-scroll-btn').click(function () {
+    $('.prev').click(function () {
         $('.carousel').carousel('prev');
     });
-    $('#next-scroll-btn').click(function () {
+    $('.next').click(function () {
         $('.carousel').carousel('next');
     })
 });
@@ -15,6 +15,6 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 $('.carousel.carousel-slider').carousel({
-    fullWidth: false,
-    indicators: true
+    fullWidth: true,
+    indicators: false
 });
