@@ -1,0 +1,31 @@
+html {
+    font-family: Didact Gothic, sans-serif;
+}
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: #000;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+img {
+    height: 72%;
+    width: 60%;
+}
+
+iframe {
+    height: 85%;
+    width: 50%;
+}
+
+#group {
+    width: 30%;
+}
+
+#mom {
+    width: 17%;
+}
